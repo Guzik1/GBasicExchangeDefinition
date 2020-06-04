@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Sebastian Guzik</Authors>
+    <Description>Basic enums definitions for exchange.</Description>
+    <Copyright>MIT</Copyright>
+    <PackageLicenseExpression>Sebastian Guzik</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>Definitions</PackageTags>
+    <RepositoryUrl>https://github.com/Guzik1/GBasicExchangeDefinition</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Guzik1/GBasicExchangeDefinition</PackageProjectUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>A:\Visual studio project\GBasicExchangeDefinition\docs\GBasicExchangeDefinitions.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DefaultDocumentation" Version="0.6.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

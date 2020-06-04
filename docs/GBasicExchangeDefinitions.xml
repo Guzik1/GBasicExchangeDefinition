@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GBasicExchangeDefinitions</name>
+    </assembly>
+    <members>
+        <member name="T:GBasicExchangeDefinitions.CandlestickInterval">
+            <summary>
+            Kline/candlestick chart intervals enum.
+            </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.CandlestickInterval.m1">
+            <summary> 1 minute. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.CandlestickInterval.m3">
+            <summary> 3 minute. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.CandlestickInterval.m5">
+            <summary> 5 minute. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.CandlestickInterval.m15">
+            <summary> 15 minute. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.CandlestickInterval.m30">
+            <summary> 30 minute. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.CandlestickInterval.h1">
+            <summary> 1 hour. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.CandlestickInterval.h2">
+            <summary> 2 hours. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.CandlestickInterval.h4">
+            <summary> 4 hours. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.CandlestickInterval.h6">
+            <summary> 6 hours. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.CandlestickInterval.h12">
+            <summary> 12 hours. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.CandlestickInterval.d1">
+            <summary> 1 day. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.CandlestickInterval.d3">
+            <summary> 3 days. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.CandlestickInterval.w1">
+            <summary> 1 week. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.CandlestickInterval.M1">
+            <summary> 1 month. </summary>
+        </member>
+        <member name="T:GBasicExchangeDefinitions.CandlestickIntervalExtension">
+            <summary>
+            Extension method for Cnadlestick interval enum.
+            </summary>
+        </member>
+        <member name="M:GBasicExchangeDefinitions.CandlestickIntervalExtension.GetSecond(GBasicExchangeDefinitions.CandlestickInterval)">
+            <summary>
+            Get count of second in selected interval.
+            </summary>
+            <param name="resolution">Candlestick interval object.</param>
+            <returns>Count of second.</returns>
+        </member>
+        <member name="M:GBasicExchangeDefinitions.CandlestickIntervalExtension.ToString(GBasicExchangeDefinitions.CandlestickInterval)">
+            <summary>
+            Convert enum value to string.
+            </summary>
+            <param name="resolution">Candlestick interval object.</param>
+            <returns>Object converting to string.</returns>
+        </member>
+        <member name="T:GBasicExchangeDefinitions.OrderSide">
+            <summary>
+            Order side enum.
+            </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.OrderSide.BUY">
+            <summary>
+            Buyer.
+            </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.OrderSide.SELL">
+            <summary>
+            Seller.
+            </summary>
+        </member>
+        <member name="T:GBasicExchangeDefinitions.OrderStatus">
+            <summary>
+            Order status enum.
+            </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.OrderStatus.NEW">
+            <summary> New order. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.OrderStatus.PARTIALLY_FILLED">
+            <summary> Partially filled order. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.OrderStatus.FILLED">
+            <summary> Filled order. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.OrderStatus.CANCELED">
+            <summary> Canceled order. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.OrderStatus.REJECTED">
+            <summary> Rejected order. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.OrderStatus.EXPIRED">
+            <summary> Expired order. </summary>
+        </member>
+        <member name="T:GBasicExchangeDefinitions.OrderType">
+            <summary>
+            Order type enum.
+            </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.OrderType.LIMIT">
+            <summary> Limit order type. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.OrderType.MARKET">
+            <summary> Market order type. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.OrderType.STOP">
+            <summary> Stop limit order type. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.OrderType.STOP_MARKET">
+            <summary> Stop market order type. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.OrderType.TAKE_PROFIT">
+            <summary> Take profit limit order type. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.OrderType.TAKE_PROFIT_MARKET">
+            <summary> Take profit market order type. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.OrderType.TRAILING_STOP_MARKET">
+            <summary> Trailing stop market order type. </summary>
+        </member>
+        <member name="T:GBasicExchangeDefinitions.PositionSide">
+            <summary>
+            Position side enum.
+            </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.PositionSide.LONG">
+            <summary>
+            Long.
+            </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.PositionSide.SHORT">
+            <summary>
+            Short.
+            </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.PositionSide.BOTH">
+            <summary>
+            Long and sell.
+            </summary>
+        </member>
+        <member name="T:GBasicExchangeDefinitions.ResponseType">
+            <summary>
+            Response type enum.
+            </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.ResponseType.ACK">
+            <summary>
+            ACK.
+            </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.ResponseType.RESULT">
+            <summary>
+            RESULT.
+            </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.ResponseType.DEFAULT">
+            <summary>
+            Default, not use.
+            </summary>
+        </member>
+        <member name="T:GBasicExchangeDefinitions.TimeInForce">
+            <summary>
+            Time in force type enum.
+            </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.TimeInForce.GTC">
+            <summary> Good Till Cancel.</summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.TimeInForce.IOC">
+            <summary> Immediate or Cancel.</summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.TimeInForce.FOK">
+            <summary> Fill or Kill.</summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.TimeInForce.GTX">
+            <summary> Good Till Crossing (Post Only).</summary>
+        </member>
+        <member name="T:GBasicExchangeDefinitions.WorkingType">
+            <summary>
+            Working type enum.
+            </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.WorkingType.MARK_PRICE">
+            <summary> Market price. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.WorkingType.CONTRACT_PRICE">
+            <summary> contract price. </summary>
+        </member>
+        <member name="F:GBasicExchangeDefinitions.WorkingType.DEFAULT">
+            <summary>
+            Default, not use.
+            </summary>
+        </member>
+    </members>
+</doc>
