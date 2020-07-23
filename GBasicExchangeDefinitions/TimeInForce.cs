@@ -12,6 +12,8 @@
         ///<summary> Fill or Kill.</summary>
         FOK,
         ///<summary> Good Till Crossing (Post Only).</summary>
-        GTX
+        GTX,
+        /// <summary> Default time in force. </summary>
+        DEFAULT
     }
 }
